@@ -1,0 +1,21 @@
+Create User Profile
+http://localhost:8080/wave-api/rest/UserProfileService/createUserProfile
+{
+	"name": "Monageng",
+	"surname": "Motsabi",
+	"dateOfBirth":"2016-05-06",
+    "age":20,
+    "race":"Black",
+    "cellNumber":"0125489675",
+    "emailAddress":"monageng@gmail.com",
+    "address" : {
+     	"country":"South Africa",
+        "province" :"Gauteng",
+        "city" : "Midrand"     
+    },
+    "userCredential" : {
+    	"username" : "abc1",
+         "password":"abc1"
+    }
+      
+}
